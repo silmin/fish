@@ -5,6 +5,5 @@ My fish shell configuration.
 ## Setup
 
 ```sh
-git clone <repo-url> ~/src/fish
-ln -s ~/src/fish ~/.config/fish
+git clone https://github.com/silmin/fish ~/.config/fish
 ```
