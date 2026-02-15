@@ -21,14 +21,14 @@ function fish_prompt
     set -g __fish_git_prompt_showstashstate 1
     set -g __fish_git_prompt_color brmagenta
     set -g __fish_git_prompt_color_branch brmagenta
-    set -g __fish_git_prompt_color_dirtystate brred
-    set -g __fish_git_prompt_color_untrackedfiles brred
-    set -g __fish_git_prompt_color_stashstate brcyan
+    set -g __fish_git_prompt_color_dirtystate brmagenta
+    set -g __fish_git_prompt_color_untrackedfiles brmagenta
+    set -g __fish_git_prompt_color_stashstate brmagenta
     set -g __fish_git_prompt_showupstream informative
     set -g __fish_git_prompt_char_upstream_ahead ' ↑'
     set -g __fish_git_prompt_char_upstream_behind ' ↓'
-    set -g __fish_git_prompt_color_upstream_ahead brgreen
-    set -g __fish_git_prompt_color_upstream_behind brred
+    set -g __fish_git_prompt_color_upstream_ahead brmagenta
+    set -g __fish_git_prompt_color_upstream_behind brmagenta
     printf '%s' (fish_git_prompt)
     set_color normal
 
