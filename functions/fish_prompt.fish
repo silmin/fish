@@ -25,8 +25,8 @@ function fish_prompt
     set -g __fish_git_prompt_color_untrackedfiles brmagenta
     set -g __fish_git_prompt_color_stashstate brmagenta
     set -g __fish_git_prompt_showupstream informative
-    set -g __fish_git_prompt_char_upstream_ahead ' ↑'
-    set -g __fish_git_prompt_char_upstream_behind ' ↓'
+    set -g __fish_git_prompt_char_upstream_ahead '↑'
+    set -g __fish_git_prompt_char_upstream_behind '↓'
     set -g __fish_git_prompt_color_upstream_ahead brmagenta
     set -g __fish_git_prompt_color_upstream_behind brmagenta
     printf '%s' (fish_git_prompt)
