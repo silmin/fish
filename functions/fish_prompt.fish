@@ -24,6 +24,11 @@ function fish_prompt
     set -g __fish_git_prompt_color_dirtystate brred
     set -g __fish_git_prompt_color_untrackedfiles brred
     set -g __fish_git_prompt_color_stashstate brcyan
+    set -g __fish_git_prompt_showupstream informative
+    set -g __fish_git_prompt_char_upstream_ahead ' ↑'
+    set -g __fish_git_prompt_char_upstream_behind ' ↓'
+    set -g __fish_git_prompt_color_upstream_ahead brgreen
+    set -g __fish_git_prompt_color_upstream_behind brred
     printf '%s' (fish_git_prompt)
     set_color normal
 

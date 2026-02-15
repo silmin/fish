@@ -8,4 +8,6 @@ if status is-interactive
     alias l 'eza -l'
     alias ll 'eza -lh'
     alias la 'eza -lha'
+
+    export HOMEBREW_NO_AUTO_UPDATE=1
 end
