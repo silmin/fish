@@ -11,4 +11,5 @@ if status is-interactive
     alias la 'eza -lha'
 
     export HOMEBREW_NO_AUTO_UPDATE=1
+    export EDITOR=nvim
 end
